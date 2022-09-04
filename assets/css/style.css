@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Oswald-Light";
+    src: url(../font/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: "Oswald-Bold";
+    src: url(../font/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url(../font/Oswald-Regular.ttf);
+}
+
+.Oswald {
+    font-family: "Oswald-Light";
+}
+
+.OswaldBold {
+    font-family: "Oswald-Bold";
+}
+
+.OswaldRegular {
+    font-family: "Oswald-Regular";
+}
+
+.radius {
+    border-radius: 60px;
+}
+
+.marge {
+    margin-top: 80px;
+}
+
+.navfootbg {
+    background-color: #2f3136;
+}
+
+.logo {
+    width: 45px;
+}
+
+.imgbg {
+    width: 180px;
+    height: 180px;
+    background-image: url(../img/logitech_g495.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 17px;
+    margin: auto;
+}
+
+.imgbg2 {
+    width: 180px;
+    height: 170px;
+    background-image: url(../img/logitech_g502.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.imgbg3 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/logitech_g-pro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.imgbg4 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/logitech-g-pro-headphone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.imgbg5 {
+    width: 280px;
+    height: 150px;
+    background-image: url(../img/logitech_g_pro_keyboard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.imgbg6 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/c920.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.imgbg7 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/g640.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.imgbg8 {
+    width: 200px;
+    height: 150px;
+    background-image: url(../img/g513-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.avalonlogo {
+    width: 160px;
+    height: 100px;
+}

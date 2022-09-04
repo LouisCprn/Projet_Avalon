@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Avalon</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark navfootbg fixed-top OswaldRegular">
+        <div class="container-fluid">
+            <a href="index.html"><img class="logo" src="assets/img/logo_avalon.png"
+                    alt="Logo de la marque Logitech"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Accueil
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="catalogue.html">Catalogue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="cn.html">Contactez-nous</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-shopping-cart text-light fs-4 mx-3"></i></button>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="text" placeholder="Recherche">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+                      <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+  <main>
+    <div class="container marge Oswald">
+      <div class="row">
+        <div class="col">
+          <form>
+            <fieldset>
+              <legend class="text-center text-uppercase mt-4">Contactez-nous</legend>
+              <div class="form-group rounded-3 mt-4">
+                <label for="exampleInputEmail1" class="form-label mt-4">Adresse e-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Entrez votre email">
+                <small id="emailHelp" class="form-text text-muted">Nous ne partageons pas votre adresse e-mail.</small>
+              </div>
+              <div class="form-group">
+                <label class="col-form-label mt-4" for="inputDefault">Prénom</label>
+                <input type="text" class="form-control" placeholder="Entrez votre prénom" id="inputDefault">
+              </div>
+              <div class="form-group">
+                <label class="col-form-label mt-4" for="inputDefault">Nom</label>
+                <input type="text" class="form-control" placeholder="Entrez votre nom" id="inputDefault">
+              </div>
+              <div class="form-group">
+                <label class="col-form-label mt-4" for="inputDefault">Téléphone</label>
+                <input type="text" class="form-control" placeholder="Entrez votre téléphone" id="inputDefault">
+              </div>
+              <div class="form-group rounded-3 mt-4">
+                <label for="exampleTextarea" class="form-label mt-4">Ecrivez un text</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                <button type="button" class="btn btn-outline-dark offset-6 mt-4">Envoyez</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Panier</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Votre panier est vide
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Continuer sur le catalogue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid text-light navfootbg p-4 mt-4 Oswald">
+    <div class="row">
+        <div class="col">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-12 col-md-8 text-center">
+                        <label class="fs-4 mb-2">Inscription à notre newsletter</label>
+                        <input type="text" class="form-control" placeholder="name@exemple.com">
+                        <fieldset class="form-group text-start">
+                            <div class="form-check mt-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    J'accepte de m'inscrire à la newsletter de Logitech.
+                                    <a class="text-light fw-bold OswaldBold"
+                                        href="https://www.logitech.fr/fr-fr/legal/web-privacy-policy.html">Politique
+                                            de confidentialité.</a>
+                                </label>
+                                <button type="button" class="btn btn-outline-light mx-3">Envoyez</button>
+                            </div>
+                          </fieldset>
+                    </div>
+                    <div class="col col-md-4 text-md-end">
+                        <div class="d-flex flex-row flex-md-column">
+                            <a class="text-light fs-2" href="https://twitter.com/Logitech">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="text-light fs-2"
+                                href="https://www.facebook.com/Logitech">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a class="text-light fs-2"
+                                href="https://www.instagram.com/logitech/?ref=badge">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 text-center text-md-start col-md-6">©2021 Avalon. Tous droits
+                        réservés</div>
+                        <div class="col-12 col-md-6 text-center text-md-end"><a
+                            class="text-decoration-none text-light fw-bold text-uppercase"
+                            href="cn.html">Contactez-nous</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="https://kit.fontawesome.com/5da024a158.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
